@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './components/hellocomponent';
-import Item from './components/item';
+
+
 
 function FuncComponent() {
-  return <div> <h1>function Component</h1> <HelloComponent/> </div>
+  return <div> <h1>function Component</h1>  </div>
 }
 
 class ClassComponent extends React.Component{
@@ -20,8 +20,6 @@ class ClassComponent extends React.Component{
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    
-
   </React.StrictMode>,
   document.getElementById('root')
 );
